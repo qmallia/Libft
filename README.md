@@ -19,7 +19,11 @@ A **detailed description** of the library.
 #
 
 ## 📖 Description
+**Libft** is a project that aims to make your other projects faster and easier to code by creating a private library that reunites all the helper functions that we can need in our future projects.
 
+It contains some functions of the ``libc``, many strings and memory manipulation, comparison and linked list functions.
+
+We can add all the functions we want by adding the new files and compile the project again.
 
 ## ⚙️ Instructions
 
@@ -77,5 +81,63 @@ cc -Wall -Wextra -Werror -I./libft *.c ./libft/libft.a -o program_name
 ```
 
 ## 💻 Resources
+No AI were used at all to complete this project. The only resources that has been used were the man pages of the different functions of the ``libc`` and some wikis found on the internet to understand well the principe of pure memory manipulation and linked list.
 
 ## 🏷️ Detailing
+Here is a detailed list of all the function and their purposes.
+
+### Libc functions
+
+#### Comparison
+* ``ft_isalpha`` → T
+* ``ft_isdigit``
+* ``ft_isalnum``
+* ``ft_isascii``
+* ``ft_isprint``
+
+#### String and chars manipulation
+* ``ft_strlen``
+* ``ft_strlcpy``
+* ``ft_strlcat``
+* ``ft_strchr``
+* ``ft_strrchr``
+* ``ft_strncmp``
+* ``ft_strnstr``
+* ``ft_atoi``
+* ``ft_strdup``
+* ``ft_toupper``
+* ``ft_tolower``
+
+#### Memory manipulation
+* ``ft_memset``
+* ``ft_bzero``
+* ``ft_memcpy``
+* ``ft_memmove``
+* ``ft_memchr``
+* ``ft_memcmp``
+* ``ft_calloc``
+
+### Additional functions
+*Mainly focus on string manipulation*
+* ``ft_substr``
+* ``ft_strjoin``
+* ``ft_strtrim``
+* ``ft_split``
+* ``ft_itoa``
+* ``ft_strmapi``
+* ``ft_striteri``
+* ``ft_putchar_fd``
+* ``ft_putstr_fd``
+* ``ft_putendl_fd``
+* ``ft_putnbr_fd``
+
+### Linked List
+* ``ft_lstnew``
+* ``ft_lstadd_front``
+* ``ft_lstsize``
+* ``ft_lstlast``
+* ``ft_lstadd_back``
+* ``ft_delone``
+* ``ft_lstclear``
+* ``ft_lstiter``
+* ``ft_lstmap``
