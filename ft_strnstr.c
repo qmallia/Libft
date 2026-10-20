@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: qmallia <qmallia@student.42nice.fr>        +#+  +:+       +#+        */
+/*   By: qmallia <qmallia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/13 01:14:24 by qmallia           #+#    #+#             */
-/*   Updated: 2026/10/17 21:54:12 by qmallia          ###   ########.fr       */
+/*   Updated: 2026/10/20 04:45:41 by qmallia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		i++;
 		j = 0;
 	}
-	return (0);
+	return (NULL);
 }
