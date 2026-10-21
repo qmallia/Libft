@@ -72,7 +72,7 @@ int main(void)
 }
 ```
 
-``ft_strdup`` is a function of the lib. ``stdlib.h`` is also included in the libft.h file to use the ``free`` function.*
+*``ft_strdup`` is a function of the lib. ``stdlib.h`` is also included in the libft.h file to use the ``free`` function.*
 
 Then, you can compile the program with the following command :
 
